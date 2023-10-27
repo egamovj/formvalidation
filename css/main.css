@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/22/15/29/blue-1273089_1280.jpg");
+}
+
+.form-container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px 40px 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #9DA2B5;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    font-size: 16px;
+}
+
+button:hover {
+    color: #007BFF;
+    background-color: #ffffff;
+    border-color: #007BFF;
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+.show-password {
+    cursor: pointer;
+    color: #007BFF;
+    font-size: 14px;
+    margin-left: 10px;
+}
